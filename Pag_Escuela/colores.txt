@@ -1,0 +1,30 @@
+
+azulito: 40b4e2
+azul fuerte: 137abc
+azul cielo: 69c5ea
+azul cinnamon: 6ac4ea
+azul pinguino(linea del menu): #659AD2
+celeste claro (sombreado exp menu): #EAF6FB
+
+verde: 9fd801
+
+naranja: f68a2a
+rojo: ec0a29
+rosa: f6d9f0
+rosa fuerte: f45397
+fucsia: f05098
+rosa palo: #EE719C
+rosa palo 2: #F18EB0
+rosadito: #F6D9F0
+
+gris-morado: D0CBFC
+gris: 858789
+negro: 000000
+negro letra: #2d2a26
+
+
+
+FONTS:
+Tahoma Font TH, Questrial, Emmali
+
+

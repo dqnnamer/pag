@@ -1,0 +1,84 @@
+*{margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+
+
+
+
+.content-div1,.content-div2,.content-div3{
+
+        border: solid 1px;
+    	width: 25%;
+    	text-align: center;
+    	float: left;
+    	margin-left: 6.25%;
+    	border-radius: 20px 20px 0px 0px; 
+
+}
+
+ .content-div1{
+ 	background-color: skyblue;
+
+ }
+ .content-div2{
+ 	background-color: lightcoral;
+ }
+ .content-div3{
+ 	background-color: lightblue;
+ }
+
+.content-div4,.content-div5,.content-div6{
+
+        border: solid 1px;
+    	width: 338px;height: 200px;
+    	text-align: center;
+    	float: left;
+    	margin-left: 6.25%;
+    	border-radius: 0px 0px 20px 20px; 
+ }
+
+  .content-div4{
+ 	background-color: lightblue;
+ }
+  .content-div5{
+ 	background-color: lightblue;
+ } .content-div6{
+ 	background-color: lightblue;
+ }
+ .content-div10{
+    border: solid 1px;
+    	width: 87%;
+    	height: 400px;
+    	text-align: center;
+    	padding-bottom: 50px;
+    	margin-left: 6.25%;
+    	margin-top: 50px;
+    	background-color: lightblue;
+    	float: left;
+ }
+  .w3-round{
+  	border-radius: 20px 20px 0px 0px; 
+  	text-align: center;
+  	margin-left: 12.2%;
+
+  }
+  .pict-student1{
+  	background-image: url('../img/perfil1.jpg');
+  	background-repeat: no-repeat;
+
+  }
+
+  h1{
+  	color:#0000;
+  	text-align:center;
+	
+  }
+
+.fle{
+	display: flex;
+
+  }
+  

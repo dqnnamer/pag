@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Inicio</title>
+  <link rel="icon" href="img/goldenfish.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style-Menu.css">
+</head>
+
+  <body>
+
+    <nav class="menu">
+      <div class="line1">
+      </div>
+      <img class="logopage" src="img/whaleshark.png">
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="biografia.html">Historia</a></li>
+        <li><a href="perfil.html">Animales Vertebrados</a></li>   
+        <li><a href="hobbies.html">Animales Invertebrados</a></li> 
+        <li class="shadow"><a href="expsuperate.html">Arrecifes de Coral</a></li> 
+      </ul>
+        <div class="line2" ><b><p> Biología Marina</p></b></div>  
+      
+   
+      <div class="full-img" id="fullImgBox">
+        <img src="imggallery1/pic1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+      </div>
+
+
+      <div class="img-gallery">
+        <img src="imggallery1/fishes.webp" onclick="openFullImg(this.src)">
+        <img src="imggallery1/img1.webp" onclick="openFullImg(this.src)">
+        <img src="imggallery1/img2.webp" onclick="openFullImg(this.src)">
+        <img src="imggallery1/img4.webp" onclick="openFullImg(this.src)">
+        <img src="imggallery1/meduse.jpg" onclick="openFullImg(this.src)">
+        <img src="imggallery1/img11.webp" onclick="openFullImg(this.src)">
+        <img src="imggallery1/img13.webp" onclick="openFullImg(this.src)">
+        <img src="imggallery1/img6.webp" onclick="openFullImg(this.src)">
+        <img src="imggallery1/img23.webp" onclick="openFullImg(this.src)">
+      </div>                                      
+        
+   <script>
+     var fullImgBox = document.getElementById("fullImgBox");
+     var fullImg = document.getElementById("fullImg");
+
+     function openFullImg(pic){
+      fullImgBox.style.display= "flex";
+      fullImg.src = pic;
+     }
+     function closeFullImg(){
+      fullImgBox.style.display = "none";
+     }
+   </script> 
+  
+
+  <footer class="footer">
+
+    <div class="footer-col">
+        <div class="social-links">
+          <a href="https://www.environmentalscience.org/career/marine-biologist"><img src="img/sciencee.webp" id="img-facebook"></a>
+          <address>www.marinebio.org</address">
+          <p>As growing global population stresses the ability of our society to produce food, water, and shelter, we will continue to look to the oceans to help sustain our basic needs.
+            Advances in technology, combined with demand, will improve our ability to derive food, drinking water, energy sources, waste disposal, and transportation from the ocean.</p>
+  
+        </div>
+   </div>
+  </footer>
+ </nav>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Página de Registro</title>
+  <link rel="icon" href="./img/goldenfish.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/logginpage.css">
+</head>
+<body>
+    <nav class="menu">
+      <div class="line1">
+      </div>
+      <img class="logopage" src="img/whaleshark.png">
+<h2>¡Inicia sesión!</h2>
+
+<form action="inicio.html" method="post">
+  <div class="imgcontainer">
+    <img src="./img/profilepic.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Usuario</b></label>
+    <input type="text" placeholder="Ingrese su Usuario" name="uname" required>
+
+    <label for="psw"><b>Contraseña</b></label>
+    <input type="password" placeholder="Ingrese la Contraseña" name="psw" required>
+        
+    <button type="submit">Iniciar Sesión</button>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn" onclick="cerrarPagina()">Cancelar</button>
+  </div>
+  
+  <script>
+  function cerrarPagina() {
+    window.close(); 
+  }
+  </script>
+</form>
+<footer class="footer">
+
+  <div class="footer-col">
+      <div class="social-links">
+        <a href="https://www.environmentalscience.org/career/marine-biologist"><img src="img/sciencee.webp" id="img-facebook"></a>
+        <address>www.marinebio.org</address">
+        <p>As growing global population stresses the ability of our society to produce food, water, and shelter, we will continue to look to the oceans to help sustain our basic needs.
+          Advances in technology, combined with demand, will improve our ability to derive food, drinking water, energy sources, waste disposal, and transportation from the ocean.</p>
+
+      </div>
+ </div>
+
+</footer>
+</body>
+</html>
